@@ -1,0 +1,44 @@
+---
+title: "About"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Resume 
+
+**Independent Research, Lost to Follow up for HIV Antiviral Medication**                                  
+Franklin and Marshall University | Lancaster, PA | Spring 2018 - 2019
+•	Conducted Logistic Regression with SPSS to create a model that evaluated different probabilities of lost to follow up in 
+•	Created  descriptive statistical analysis  on the HIV population Botswana that 
+•	Identified predictors for lost to follow up in patients undergoing antiretroviral therapy 
+
+**ESL Instructor and Refugee Instructor** 
+Church World Service, Lancaster, PA | 2019-2020
+•	Organized and taught Cultural Orientation classes (post-arrival education to help refugees adapt to the United States) 
+•	Scheduled medical appointments and transportation for new arrivals 
+•	Taught and coordinated ESL classes for refugee clients 
+
+**Certified Nursing Assistant, Aegis Nursing Home** 
+Issaquah, WA | 2018- 2019
+•	Feed, bathed, dressed, and maintained rooms daily for 8-14 residents’  
+•	Followed care plans and assisted nurse with any medical issues 
+•	Collaborated with family members and fellow nurses
+Rainier Scholar Participant 
+Seattle, WA | 2009-2020
+•	Participated in additional academic preparation (two years) 
+•	Developed leadership and high academic skills 
+
+**Shalom Project Participant**  
+Lancaster, PA | 2019-2020
+•	Lived in a Christian community young adults and worked to affect social change 
+•	Learned how to live in a sustainable home  
+•	Volunteered at various organizations 
+
+
+Certified Nursing Assistant in Washington State and Pennsylvania
+Skilled in SPSS, OneNote, OneDrive and Excel
+Learning  SAS, R and Git Bash   
+
