@@ -12,13 +12,13 @@ output:
 Who I'm I? I am many things. 
 A student, a writer, and a daughter. 
 
+![](images/photo.jpg)
+
 [about](about.html)
 
 
 
-```{r}
 
 rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
-```
 
 
