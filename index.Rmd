@@ -1,0 +1,24 @@
+---
+title: "Homepage"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Introduction 
+
+Who I'm I? I am many things. 
+A student, a writer, and a daughter. 
+
+[about](about.html)
+
+
+
+```{r}
+
+rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
+
+
