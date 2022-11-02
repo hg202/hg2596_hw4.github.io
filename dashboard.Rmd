@@ -1,0 +1,69 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+```
+
+```{r}
+noaa_2 = ny_noaa %>% 
+  janitor::clean_names() %>%
+  separate(date,c("A", "B", "C")) %>%
+  select("B","C","A", everything()) %>%
+  rename(month = "B", day = "C", year = "A") %>%
+  mutate(month = month.abb[as.numeric(month)]) %>%
+  mutate(tmax = as.integer(tmax)) %>%
+  mutate(tmin = as.integer(tmin)) %>%
+  select(id, everything()) %>%
+  mutate(tmax_new = tmax/10) %>%
+  mutate(tmin_new = tmin/10) %>%
+  mutate(prcp_new = prcp/10) %>% 
+  mutate_if(is.double,as.integer)%>%
+  select(-tmax,-tmin,-prcp)
+```
+
+```{r}
+noaa_r = noaa_2[sample(1:nrow(noaa_2),2000),]
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+noaa_r %>%
+  plot_ly(x = ~month, y = ~tmax_new, type = "scatter", mode = "markers",color = ~year, alpha = 1.2) 
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+noaa_r %>% 
+  mutate(month = fct_reorder(month,tmax_new)) %>% 
+  plot_ly(y = ~tmax_new, color = ~month, type = "box", colors = "viridis") 
+```
+
+### Chart C
+
+```{r}
+noaa_r %>% 
+  plot_ly(x = ~month, y = ~tmax_new, color = ~month, type = "bar", colors = "viridis")
+```
+
