@@ -7,8 +7,6 @@ output:
     theme: cerulean
 ---
 
-_Resume_
-
 **Independent Research, Lost to Follow up for HIV Antiviral Medication**                                  
 Franklin and Marshall University | Lancaster, PA | Spring 2018 - 2019
 •	Conducted Logistic Regression with SPSS to create a model that evaluated different probabilities of lost to follow up in 
@@ -37,8 +35,7 @@ Lancaster, PA | 2019-2020
 •	Learned how to live in a sustainable home  
 •	Volunteered at various organizations 
 
-
-Certified Nursing Assistant in Washington State and Pennsylvania
-Skilled in SPSS, OneNote, OneDrive and Excel
-Learning  SAS, R and Git Bash   
+**Certified Nursing Assistant in Washington State and Pennsylvania**
+Skilled in SPSS, SAS and Excel
+Learning  SAS and R 
 

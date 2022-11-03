@@ -35,13 +35,14 @@ noaa_r =
   mutate(prcp_new = prcp/10) %>% 
   mutate_if(is.double,as.integer)%>%
   select(-tmax,-tmin,-prcp)%>%
+  mutate(month = fct_relevel(month,"Jan","Feb","Mar", "Apr", "May","Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec")) %>%
   slice_sample(n = 2000)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Chart A: Scatter Plot of Maximum Temperature (C) Across Time 
 
 ```{r}
 noaa_r %>%
@@ -51,7 +52,7 @@ noaa_r %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Chart B: Box Plot of Maximum Temperature (C) Across Time 
 
 ```{r}
 noaa_r %>% 
@@ -59,7 +60,7 @@ noaa_r %>%
   plot_ly(y = ~tmax_new, color = ~month, type = "box", colors = "viridis") 
 ```
 
-### Chart C
+### Chart C: Bar Plot of Maximum Temperature (C) Across Time 
 
 ```{r}
 noaa_r %>% 
