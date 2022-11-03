@@ -1,5 +1,5 @@
 ---
-title: "dashboard"
+title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -45,7 +45,6 @@ Column {data-width=650}
 
 ```{r}
 noaa_r %>%
-  mutate(month = fct_reorder(month))%>%
   plot_ly(x = ~month, y = ~tmax_new, type = "scatter", mode = "markers",color = ~year, alpha = 1.2) 
 ```
 

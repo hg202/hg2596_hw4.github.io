@@ -1,14 +1,14 @@
-name: "Homework 4"
+name: "Hilina's Information"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "about"
+    - text: "About"
       href: about.html
-    - text: "dashboard"
+    - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<hg2596@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/<hg2596_hw4.github.io>/
 output:

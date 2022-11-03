@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Resume"
 output: 
   html_document:
     toc: true
@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# Resume 
+_Resume_
 
 **Independent Research, Lost to Follow up for HIV Antiviral Medication**                                  
 Franklin and Marshall University | Lancaster, PA | Spring 2018 - 2019
