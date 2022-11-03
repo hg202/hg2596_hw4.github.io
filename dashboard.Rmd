@@ -1,9 +1,11 @@
 ---
-title: "Dashboard"
+title: "dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -11,14 +13,15 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+
 ```
 
-```{r}
+```{r, include=FALSE}
 data("ny_noaa")
-```
 
-```{r}
-noaa_2 = ny_noaa %>% 
+noaa_r = 
+  ny_noaa %>%
+  as_tibble(ny_noaa) %>%
   janitor::clean_names() %>%
   separate(date,c("A", "B", "C")) %>%
   select("B","C","A", everything()) %>%
@@ -31,13 +34,9 @@ noaa_2 = ny_noaa %>%
   mutate(tmin_new = tmin/10) %>%
   mutate(prcp_new = prcp/10) %>% 
   mutate_if(is.double,as.integer)%>%
-  select(-tmax,-tmin,-prcp)
+  select(-tmax,-tmin,-prcp)%>%
+  slice_sample(n = 2000)
 ```
-
-```{r}
-noaa_r = noaa_2[sample(1:nrow(noaa_2),2000),]
-```
-
 
 Column {data-width=650}
 -----------------------------------------------------------------------
@@ -46,6 +45,7 @@ Column {data-width=650}
 
 ```{r}
 noaa_r %>%
+  mutate(month = fct_reorder(month))%>%
   plot_ly(x = ~month, y = ~tmax_new, type = "scatter", mode = "markers",color = ~year, alpha = 1.2) 
 ```
 
