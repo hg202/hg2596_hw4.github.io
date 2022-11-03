@@ -8,19 +8,19 @@ output:
 ---
 
 **Independent Research, Lost to Follow up for HIV Antiviral Medication**                                  
-Franklin and Marshall University | Lancaster, PA | Spring 2018 - 2019
-•	Conducted Logistic Regression with SPSS to create a model that evaluated different probabilities of lost to follow up in 
-•	Created  descriptive statistical analysis  on the HIV population Botswana that 
-•	Identified predictors for lost to follow up in patients undergoing antiretroviral therapy 
+_Franklin and Marshall University | Lancaster, PA | Spring 2018 - 2019_
+Conducted Logistic Regression with SPSS to create a model that evaluated different probabilities of lost to follow up
+Created  descriptive statistical analysis  on the HIV population Botswana that 
+Identified predictors for lost to follow up in patients undergoing antiretroviral therapy 
 
 **ESL Instructor and Refugee Instructor** 
-Church World Service, Lancaster, PA | 2019-2020
-•	Organized and taught Cultural Orientation classes (post-arrival education to help refugees adapt to the United States) 
-•	Scheduled medical appointments and transportation for new arrivals 
-•	Taught and coordinated ESL classes for refugee clients 
+_Church World Service, Lancaster, PA | 2019-2020 _
+Organized and taught Cultural Orientation classes (post-arrival education to help refugees adapt to the United States) 
+Scheduled medical appointments and transportation for new arrivals 
+Taught and coordinated ESL classes for refugee clients 
 
 **Certified Nursing Assistant, Aegis Nursing Home** 
-Issaquah, WA | 2018- 2019
+_Issaquah, WA | 2018- 2019_
 •	Feed, bathed, dressed, and maintained rooms daily for 8-14 residents’  
 •	Followed care plans and assisted nurse with any medical issues 
 •	Collaborated with family members and fellow nurses
@@ -30,12 +30,13 @@ Seattle, WA | 2009-2020
 •	Developed leadership and high academic skills 
 
 **Shalom Project Participant**  
-Lancaster, PA | 2019-2020
+_Lancaster, PA | 2019-2020_
 •	Lived in a Christian community young adults and worked to affect social change 
 •	Learned how to live in a sustainable home  
 •	Volunteered at various organizations 
 
-**Certified Nursing Assistant in Washington State and Pennsylvania**
+**Extra Skills**
+Certified Nursing Assistant in Washington State 
 Skilled in SPSS, SAS and Excel
 Learning  SAS and R 
 
