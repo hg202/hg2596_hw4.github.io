@@ -1,17 +1,17 @@
 name: "Hilina's Information"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Giday"
   right:
     - text: "About"
       href: about.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<hg2596@cumc.columbia.edu>
+      href: mailto:<giday.hilinab@gmail.com>
     - icon: fa-github fa-lg
       href: https://github.com/hg202
 output:
   html_document:
-    theme: cerulean
+    theme: readable
     
