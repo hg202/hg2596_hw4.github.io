@@ -4,7 +4,7 @@ navbar:
   title: "Giday"
   right:
     - text: "About"
-      href: about.html
+      href: resume.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
@@ -13,5 +13,5 @@ navbar:
       href: https://github.com/hg202
 output:
   html_document:
-    theme: readable
+    theme: sandstone
     
