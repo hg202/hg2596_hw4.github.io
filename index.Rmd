@@ -8,7 +8,7 @@ output:
   
 ---
 
-<img src="green.jpeg" style="width: 33%; float: right; margin-left: 20px;">
+<img src="green.jpeg" style="width: 15%; float: right; margin-left: 20px;">
 
 As a first-generation graduate, I've seen how profoundly social factors can impact an individual's physical health. I am determined to utilize statistical analysis tools to contribute to advancing public health, particularly within my community and for the <strong> most vulnerable</strong>.
 
